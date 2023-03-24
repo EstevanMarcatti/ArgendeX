@@ -1,9 +1,13 @@
+
+/*forma das letras*/
 *{
     font-family:'arial';
 }
 body{
     background-color:rgb(74, 71, 71);
 }
+/*form*/
+/*conteiner*/
 .container_form {
     width: 700px;
     margin: auto;
@@ -23,7 +27,7 @@ body{
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-
+/*grupo*/
 .form_grupo {
     width: 90%;
     margin: 0 auto;
@@ -31,6 +35,40 @@ body{
     position: relative;
     color: white;
 
+}
+.form_grupo {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+/*input*/
+.form_input {
+    font-size: 16px;
+    font-family: 'arial';
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px black solid;
+    background: #fdfdfd;
+    outline: none;
+    width: 95%;
+    transition: all 0.3s;
+}
+.form_new_input {
+    display: none;
+}
+/*message*/
+.form_message,
+.form_message .message_input {
+    width: 98%;
+    float:left;
+}
+.form_message_label {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
 }
 
 
@@ -64,11 +102,9 @@ body{
 }
 
 
-.form_new_input {
-    display: none;
-}
 
 
+/*radio*/
 .radio_new_btn {
     position: absolute;
     left: 0;
@@ -90,6 +126,7 @@ body{
     background-color: rgb(81, 255, 0);
     visibility: hidden;
 }
+/*botão*/
 .check_new_btn {
     position: absolute;
     left: 0;
@@ -110,32 +147,3 @@ body{
 }
 
 
-.form_grupo {
-    width: 100%;
-    margin-bottom: 20px;
-    position: relative;
-}
-.form_input {
-    font-size: 16px;
-    font-family: 'arial';
-    padding: 8px 15px;
-    border-radius: 4px;
-    border: 1px black solid;
-    background: #fdfdfd;
-    outline: none;
-    width: 95%;
-    transition: all 0.3s;
-}
-.form_message,
-.form_message .message_input {
-    width: 98%;
-    float:left;
-}
-.form_message_label {
-    width: 100%;
-    float: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: bold;
-    
-}
