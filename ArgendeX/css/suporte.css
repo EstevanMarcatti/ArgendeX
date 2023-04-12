@@ -1,7 +1,7 @@
 header {
     background-color: rgb(74, 71, 71);
 }
-header{
+.cabecario {
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
 }
@@ -9,9 +9,9 @@ header{
     background-color: white;
 }
 .cabecario img{
-    width: 60px;
-    padding: 10px;
- }
+   width: 50px;
+   padding: 15px;
+}
 #title{
     color: white;
 }
@@ -21,7 +21,7 @@ header{
 
 li {
     list-style-type: none;
-
+    
 }
 nav {
     display: flex;
@@ -37,20 +37,18 @@ nav {
 }
 .menu a:hover {
     color: rgb(81, 255, 0);
-
+    
 }
 ul {
     margin: 5px;
     padding: 5px;
     align-items: flex-end;
     position: absolute;
-
+    
 }
 
 .modos ul {
     visibility: hidden;
-
-
 }
 
 .modos:hover ul {
@@ -76,7 +74,7 @@ a {
     color: black;
 }
 body{
-    background-color:  rgb(74, 71, 71);
+    background-color: rgb(74, 71, 71);
 }
 
 .container{
@@ -87,7 +85,13 @@ body{
     background-color: black;
     border-radius: 20px;
 }
-
+/*Minha section, utilizei ela para justificar a caixa do contato de suporte */
+.tudo {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+/*a caixa de suporte*/
 .giga {
     background-color: rgb(0, 0, 0);
     height: 800px;
@@ -99,33 +103,32 @@ body{
     border: 0.2em solid;
     border-color: rgb(17, 255, 0);
 }
-.tudo {
-    background-color: rgb(74, 71, 71);
-    display: flex;
-    padding-left: 300px;
-    padding-top: 30px;
-}
+/*é o titulo em destaque na caixa de suporte */
 #tistulo {
     padding-left: 270px;
     margin-top: 40px;
     font-size: 40px;
     color: rgb(17, 255, 0);
 }
+/*este é o agrupamentos de meus inputs */
 .menuzao {
     padding-left: 40px;
     font-size: 20px;
 }
+/*inputs padrões, no caso o nome e e-mail */
 input {
     height: 40px;
     width: 88%;
     font-size: 20px;
     border-radius: 6px;
 }
+/*onde o usuario vai relatar o problema, foi utilizado um textarea */
 #textao {
     height: 300px;
     columns: 3;
     width: 88%;
 }
+/*é o botão enviar */
 #enviar {
     background-color: rgb(17, 255, 0);
     color: white;
@@ -134,10 +137,8 @@ input {
     text-shadow: 0.1em 0.1em 0.2em black;
     height: 47px;
 }
+/*é o botão enviar quando o mouse esta sobre ele, ela serve para escurecer a caixa e dar destaque */
 #enviar:hover {
     background-color: rgb(41, 129, 0);
     transition: 1s;
-}
-footer{
-    background-color: rgb(74, 71, 71) ;
 }
