@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 450px;
-    height: 480px;
+    height: 450px;
     margin: auto;
     border: 5px solid green;
     margin-top: 100px;
@@ -36,24 +36,20 @@ body {
     margin-left: 50px;
 }
 
-#nome {
+
+
+#novasenha {
     height: 30px;
     width: 350px;
     padding: auto;
 }
 
-#email {
+#senha {
     height: 30px;
     width: 350px;
     padding: auto;
 }
 
-#suporte1 {
-    height: 40px;
-    width: 350px;
-    padding: auto;
-    display: flex;
-}
 
 .submit {
     width: 100%;
@@ -85,7 +81,7 @@ body {
 }
 
 #volta1 {
-    margin-top: 100px;
+    margin-top: 130px;
     color: white;
     font-size: 13px;
     margin-right: 50px;
