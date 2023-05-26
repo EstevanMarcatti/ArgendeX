@@ -1,3 +1,4 @@
+
 /*cabecario / inicial*/
 
 header {
@@ -336,67 +337,129 @@ body {
 }
 
 
-/*Sociais Footer*/
+/* Footer*/
 
-.sociais {
-    text-align: center;
-    margin-top: 50px;
+
+.footer {
+    position: relative;
+}
+
+#img_footer {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.nome_logo {
     display: flex;
-    transition: 5s;
+    margin-left: 150px;
 }
 
-.sociais h1 {
+#logo_footer {
+    width: 80px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+#nome_footer {
     color: white;
-    margin: 0;
-    visibility: hidden;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    text-align: center;
+    padding: 10px;
 }
 
-#loc {
-    margin-left: 480px;
+.texto_equipe{
+    width: 400px;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    text-align: center;
+    padding: 10px;
+}
+.contato{
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    text-align: center;
+    padding: 10px;
+}
+#redesocial{
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 1050px;
+    text-align: center;
+    padding: 10px;
+}
+.inst img{
+    width: 60px;
 }
 
-#zap {
-    width: 70px;
-    bottom: 5px;
-    right: 0;
-    padding: 5px;
-    transition: 0.5s;
-
+.inst{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 110px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
 }
 
-#face {
-    width: 70px;
-    bottom: 5px;
-    right: 0;
-    padding: 5px;
-    margin-left: 480px;
-    transition: 0.5s;
+.wz img{
+    width: 60px;
 }
 
-#insta {
-    width: 70px;
-    bottom: 5px;
-    right: 0;
-    padding: 5px;
-    margin-inline: 100px;
-    transition: 0.5s;
-
+.wz{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 190px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
 }
 
-#face:hover {
-    width: 80px;
+.face img{
+    width: 60px;
 }
 
-.sociais :hover h1 {
-    visibility: visible;
+.face{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 270px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
 }
 
-#insta:hover {
-    width: 80px;
+.tw img{
+    width: 60px;
 }
 
-#zap:hover {
-    width: 80px;
+.tw{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 350px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -420,7 +483,4 @@ hr {
 .icon {
     width: 40px;
     padding-left: 150px;
-
-
-
 }
