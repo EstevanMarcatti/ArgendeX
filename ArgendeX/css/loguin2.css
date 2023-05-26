@@ -3,8 +3,10 @@
 }
 
 body {
-    background-color: rgb(74, 71, 71);
+    background-image: url("planta.jpeg");
+    position: relative;
 }
+
 
 #inicial {
     color: green;
