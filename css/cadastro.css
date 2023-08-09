@@ -89,6 +89,28 @@ body {
     color: white;
 }
 
+.submit_cancel {
+    padding: 5px 24px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-family: inherit;
+    font-size: 25px;
+    font-family: 'arial';
+    border-radius: 6px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit_cancel:hover {
+    background-color: #ffffff;
+    transform: scale(1.03);
+    color: black;
+}
+
 #volta1 {
     margin-top: 100px;
     color: white;
