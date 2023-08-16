@@ -3,50 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cadastrored.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/cadastro.css">
     <title>Pagina de cadastro</title>
 </head>
 
 <body>
-
-    <div class="container">
+    <div id="main-container">
         <div class="inicio">
             <a id="inicial" href="">ArgendeX</a>
         </div>
         <h2 id="text">
             Crie sua conta no <b id="text1">ArgendeX</b>
         </h2>
-        <br>
-        <form class="requisitos" id="register-form" name="register-form">
-            <div id="nome">
-                <input type="nome" name="nome" id="nome" placeholder="Seu nome">
+        <form id="register-form" action="">
+            <div class="half-box spacing">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" data-required data-min-length="3"
+                    data-max-length="40">
             </div>
-            <br>
-            <div id="email">
-                <input type="email" name="email" id="email" placeholder="Seu Email">
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="8"
+                    data-email-validate>
             </div>
-            <br>
-            <div id="senha">
-                <input type="password" name="senha" id="senha" placeholder="Digite uma senha (minimo de 8 caracteres)">
+            <div class="half-box spacing">
+                <label for="lastname">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha"
+                    data-password-validate data-required>
             </div>
-            <br>
-            <div id="senha1">
-                <input type="password" name="senha1" id="senha1" placeholder="Repita sua senha">
+            <div class="half-box">
+                <label for="passconfirmation">Confirmação de senha</label>
+                <input type="password" name="passconfirmation" id="passwordconfirmation"
+                    placeholder="Digite novamente sua senha" data-equal="password">
             </div>
-            <div class="submit">
-                <input type="hidden" name="acao" value="enviar">
-                <button type="submit" name="Submit" class="submit_btn">Cadastrar</button>
-
+            <div>
+                <input type="checkbox" name="agreement" id="agreement" required>
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+            <div class="full-box" id="box-button">
+                <input id="btn-submit" type="submit" value="Registrar">
+                <input id="button" type="button" value="Cancelar" onclick="limpaForm()";>
             </div>
             <div class="volta">
-                <p id="volta1">Já tem conta no ArgendeX?<a id="text1" href="loginred.html"> Vá para a página de login</a></p>
-                <p id="volta2">Precisa de ajuda?<a id="text1" href="supred.html"> Acesse nossa central de ajuda.</a></p>
+                <p id="volta1">Já tem conta no ArgendeX?<a id="text1" href="login2.html"> Vá para a página de login</a></p>
+                <p id="volta2">Precisa de ajuda?<a id="text1" href="sup.html"> Acesse nossa central de ajuda.</a></p>
             </div>
         </form>
-
     </div>
+    <p class="error-validation template"></p>
+    <script src="js/jscadastro.js"></script>
 </body>
 
 </html>
