@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="css/loguin2.css">
 </head>
 <body>
-    <div class="container">
+    <div id="main-container">
         <div class="inicio">
             <a id="inicial" href="">ArgendeX</a>
         </div>
-        <h2 id="text">
-            Conecte-se e organize sua agenda.
-        </h2>
-        <br>
-        <form class="requisitos">
-            
-            <div id="email">
-                <input type="email" name="email" id="email" placeholder="Digite seu  Email">
-            </div>
-            <br>
-            <div id="senha">
-                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
-            </div>
-            <br>
-            <div class="submit">
-                <input type="hidden" name="acao" value="enviar">
-                <button type="submit" name="Submit" class="submit_btn">Entrar</button>
+        <h1>Conecte-se e organize sua agenda.</h1>
 
-            </div>
+        <form id="register-form" action=""> 
+            
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="8" data-email-validate>
+              </div>
+
+            <div class="half-box spacing">
+                <label for="lastname">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" data-password-validate data-required>
+              </div>
+
+            <div class="full-box">
+                <input id="btn-submit" type="submit" value="Entrar">
+                <input id="button" type="button" value="Cancelar" onclick="limpaForm()";>
+              </div>
+
             <div class="volta">
                 <p id="volta1">Esqueceu sua senha?<a id="text1" href="esqsenha.html"> clique aqui</a></p>
                 <p id="volta2">Precisa de ajuda?<a id="text1" href="sup.html"> Acesse nossa central de ajuda.</a></p>
@@ -38,5 +38,7 @@
         </form>
 
     </div>
+    <p class="error-validation template"></p>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

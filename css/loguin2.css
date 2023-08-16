@@ -1,5 +1,11 @@
+/* geral */
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'arial';
+    color: #ffffff;
+    border: none;
 }
 
 body {
@@ -11,23 +17,13 @@ body {
 #inicial {
     color: green;
     font-size: 60px;
-}
-
-.container {
-    width: 450px;
-    height: 450px;
-    margin: auto;
-    border: 5px solid green;
-    margin-top: 100px;
-    background: rgb(0, 0, 0);
-    padding: 1em;
-    border-radius: 20px;
     text-align: center;
 }
 
 #text {
-    font-size: 20px;
-    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #text1 {
