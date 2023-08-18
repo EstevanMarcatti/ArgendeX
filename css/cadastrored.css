@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image:url(amanhecer.jpeg) ;
+    background-image:url(ceuver.jpeg) ;
 }
 .inicio {
     color: rgb(255,21,0);
@@ -36,10 +36,6 @@ input{
 
 a {
     color:rgb(255,21,0);
-}
-
-body {
-    background-color: #8f8f8f;
 }
 
 /* form */
@@ -82,7 +78,7 @@ input[type="submit"],
     padding: 5px 30px;
     border: none;
     outline: none;
-    background-color:rgb(255,41,21) ;
+    background-color:rgb(255, 21, 0) ;
     color: white;
     text-shadow: 0 0 5px black;
     font-family: inherit;
@@ -107,7 +103,7 @@ input[type="submit"]:hover,
 
 #button{
     margin-left: 10px;
-    background-color: red;
+    background-color:rgba(255, 21, 0, 0.655) ;
 }
 
 #agreement {
@@ -139,28 +135,6 @@ input[type="submit"]:hover,
 
 .volta{
     text-align: center;
-}
-
-.submit_cancel {
-    padding: 5px 24px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: white;
-    text-shadow: 0 0 5px black;
-    font-family: inherit;
-    font-size: 25px;
-    font-family: 'arial';
-    border-radius: 6px;
-    margin: 20px auto;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.submit_cancel:hover {
-    background-color: #ffffff;
-    transform: scale(1.03);
-    color: black;
 }
 
 #volta1 {
