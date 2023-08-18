@@ -31,7 +31,7 @@ li {
 nav {
     display: flex;
     align-items: center;
-    padding-left: 450px;
+    padding-left: 420px;
     padding-top: 18px;
 }
 
@@ -45,24 +45,6 @@ nav {
 .menu a:hover {
     color: rgb(81, 255, 0);
 
-}
-
-ul {
-    margin: 5px;
-    padding: 5px;
-    align-items: flex-end;
-    position: absolute;
-
-}
-
-.modos ul {
-    visibility: hidden;
-
-
-}
-
-.modos:hover ul {
-    visibility: visible
 }
 
 * {
