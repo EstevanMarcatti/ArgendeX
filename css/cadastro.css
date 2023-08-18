@@ -145,7 +145,7 @@ input[type="submit"]:hover,
     padding: 5px 24px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: rgb(red);
     color: white;
     text-shadow: 0 0 5px black;
     font-family: inherit;
