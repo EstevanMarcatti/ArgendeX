@@ -18,22 +18,22 @@
             Crie sua conta no <b id="text1">ArgendeX</b>
         </h2>
         <form id="register-form" action="">
-            <div class="half-box spacing">
+            <div class="form-box spacing">
                 <label for="name">Nome</label>
                 <input type="text" name="name" id="name" placeholder="Digite seu nome" data-required data-min-length="3"
                     data-max-length="40">
             </div>
-            <div class="full-box">
+            <div class="email-form">
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="8"
                     data-email-validate>
             </div>
-            <div class="half-box spacing">
+            <div class="form-box spacing">
                 <label for="lastname">Senha</label>
                 <input type="password" name="password" id="password" placeholder="Digite sua senha"
                     data-password-validate data-required>
             </div>
-            <div class="half-box">
+            <div class="form-box">
                 <label for="passconfirmation">Confirmação de senha</label>
                 <input type="password" name="passconfirmation" id="passwordconfirmation"
                     placeholder="Digite novamente sua senha" data-equal="password">
@@ -43,7 +43,7 @@
                 <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
             </div>
             
-            <div class="full-box" id="box-button">
+            <div class="button-form" id="box-button">
                 <input id="btn-submit" type="submit" value="Registrar">
                 <input id="button" type="button" value="Cancelar" onclick="limpaForm()";>
             </div>
