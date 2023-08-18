@@ -31,7 +31,7 @@ li {
 nav {
     display: flex;
     align-items: center;
-    padding-left: 450px;
+    padding-left: 420px;
     padding-top: 18px;
 }
 
@@ -49,6 +49,7 @@ nav {
   
 .texto   {
 margin-top: 50px;
+
 
 }
 ul {
