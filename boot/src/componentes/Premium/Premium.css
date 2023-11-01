@@ -1,0 +1,156 @@
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*tabela de planos*/
+
+.premium {
+    display: flex;
+}
+
+#txt {
+    color: rgb(81, 255, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*Primeiro plano*/
+
+.gratis {
+    border-radius: 50px;
+    border: 2px solid rgb(81, 255, 0);
+    width: 280px;
+    color: white;
+    max-width: 400px;
+    max-height: 600px;
+    margin-left: 210px;
+    text-align: center;
+    padding-inline: 10px;
+}
+
+.gratis p {
+    font-size: 15px;
+}
+
+.gratis h3 {
+    font-size: 35px;
+}
+
+.gratis h2 {
+    color: rgb(188, 255, 89);
+    font-size: 30px;
+}
+
+
+/*Segundo plano*/
+
+.universidade {
+    border-radius: 50px;
+    border: 2px solid rgb(81, 255, 0);
+    width: 280px;
+    color: white;
+    max-width: 400px;
+    max-height: 600px;
+    text-align: center;
+    padding-inline: 10px;
+    margin-left: 50px;
+}
+
+.universidade p {
+    font-size: 15px;
+}
+
+.universidade h3 {
+    font-size: 35px;
+}
+
+.universidade h2 {
+    color: rgb(188, 255, 89);
+    font-size: 30px;
+}
+
+
+/*Terceiro plano*/
+
+.avancado {
+    border-radius: 50px;
+    border: 2px solid rgb(81, 255, 0);
+    width: 280px;
+    color: white;
+    max-width: 400px;
+    max-height: 600px;
+    text-align: center;
+    padding-inline: 10px;
+    margin-left: 50px;
+}
+
+.avancado p {
+    font-size: 15px;
+}
+
+.avancado h3 {
+    font-size: 35px;
+}
+
+.avancado h2 {
+    color: rgb(188, 255, 89);
+    font-size: 30px;
+}
+
+
+/*botao dos planos*/
+
+.btn_2 {
+    border: none;
+    padding: 12px 20px;
+    background-color: #51ff00d6;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 25px;
+    font-family: 'arial';
+    border-radius: 25px;
+    align-items: center;
+    margin: 25px;
+    transition: 0.5s;
+}
+
+.btn_2:hover {
+    background-color: #444;
+    transform: scale(1.03);
+}
+
+#vis {
+    visibility: hidden;
+}
+
+
+/*espaço entre as pag*/
+
+hr {
+    margin-top: 200px;
+}
+
+#fim {
+    margin-top: 50px;
+}
+
+.icone {
+    width: 40px;
+    padding-left: 150px;
+    padding-top: 28px;
+
+}
+
+.icon {
+    width: 40px;
+    padding-left: 150px;
+
+}

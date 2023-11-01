@@ -1,0 +1,93 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Titulo do formulario*/
+
+#branco {
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+    width: 80%;
+}
+
+#verde {
+    color: rgb(81, 255, 0);
+    margin-left: 80px;
+    padding-top: 20px;
+    font-size: 40px;
+    width: 90%;
+}
+
+
+/*formulario*/
+
+.form_grupo {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.form_input {
+    font-size: 16px;
+    font-family: 'arial';
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px #f2f2f2 solid;
+    background: #fdfdfd;
+    width: 50%;
+    margin-left: 60px;
+    transition: all 0.3s;
+    margin-top: 50px;
+}
+
+
+/*botao formulario*/
+
+.submit_btn {
+    float: left;
+    display: block;
+    padding: 12px 38px;
+    border: none;
+    outline: none;
+    background-color: #51ff00d6;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 25px;
+    font-family: 'arial';
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 80px;
+}
+
+.submit_btn:hover {
+    background-color: #444;
+    transform: scale(1.03);
+}
+
+
+/*imagem inicial*/
+
+#logocobre{
+    position: absolute;
+    left: 88%;
+    top: 570px;
+    
+}
+.meio {
+    display: flex;
+}
+
+
+
+
+

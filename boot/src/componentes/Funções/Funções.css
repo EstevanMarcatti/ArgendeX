@@ -1,0 +1,46 @@
+
+li {
+    list-style-type: none;
+
+}
+
+
+/*Texto do site/produto*/
+
+.texto {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: -555px;
+    margin-left: 250px;
+}
+
+.func {
+    text-align: center;
+    color: rgb(81, 255, 0);
+    font-size: 50px;
+    padding-top: 50px;
+
+}
+
+/*espaço entre as pag*/
+
+hr {
+    margin-top: 200px;
+}
+
+#fim {
+    margin-top: 50px;
+}
+
+.icone {
+    width: 40px;
+    padding-left: 150px;
+    padding-top: 28px;
+
+}
+
+.icon {
+    width: 40px;
+    padding-left: 150px;
+
+}

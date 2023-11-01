@@ -1,0 +1,146 @@
+
+/* Footer*/
+
+
+.footer {
+    position: relative;
+}
+
+#img_footer {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.nome_logo {
+    display: flex;
+    margin-left: 150px;
+}
+
+#logo_footer {
+    width: 80px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+#nome_footer {
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    text-align: center;
+    padding: 10px;
+}
+
+#txt_equip1{
+    width: 400px;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    text-align: center;
+    padding: 10px;
+}
+#txt_equip2{
+    width: 400px;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    text-align: center;
+    padding: 10px;
+}
+#txt_equip3{
+    width: 400px;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 330px;
+    left: 80px;
+    text-align: center;
+    padding: 10px;
+}
+.contato{
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    text-align: center;
+    padding: 10px;
+}
+#redesocial{
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 1050px;
+    text-align: center;
+    padding: 10px;
+}
+.inst img{
+    width: 60px;
+}
+
+.inst{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 110px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+
+.wz img{
+    width: 60px;
+}
+
+.wz{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 190px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+
+.face img{
+    width: 60px;
+}
+
+.face{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 270px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tw img{
+    width: 60px;
+}
+
+.tw{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 350px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+

@@ -1,0 +1,32 @@
+/*Pesquisa suporte---------------------------------------------------------------------------------------------------------------------------------------------*/
+#barrapesquisasup {
+    width: 600px;
+    margin-left: 400px;
+}
+/*Cards------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#cardsedit{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#nav-dropdown-dark-example{
+    padding-right: 800px;
+}
+
+
+#bttrecsenha{
+    background-color: white;
+    color:black;
+    border: none;
+    text-align: center;
+}
+#bttrecsenha :hover{
+    background-color: silver;
+    border: 1px black solid;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}

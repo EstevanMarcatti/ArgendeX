@@ -1,0 +1,483 @@
+
+header {
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.imagem {
+    background-color: white;
+}
+
+
+.cabecario img {
+    width: 60px;
+    padding: 10px;
+}
+
+#title {
+    color: white;
+}
+
+.cabecario {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 450px;
+    padding-top: 18px;
+}
+
+.menu a {
+    padding: 10px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: rgb(255, 21, 0);
+
+}
+
+ul {
+    margin: 5px;
+    padding: 5px;
+    align-items: flex-end;
+    position: absolute;
+
+}
+
+.modos ul {
+    visibility: hidden;
+
+
+}
+
+.modos:hover ul {
+    visibility: visible
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#conta {
+    border: 2px solid rgb(255, 21, 0);
+    border-radius: 50px;
+    padding-inline: 35px;
+    transition: 0.5s;
+
+}
+
+#conta:hover {
+    background-color: rgb(255, 21, 0);
+    color: black;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.plus {
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+/*Titulo do formulario*/
+
+#branco {
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+    width: 80%;
+}
+
+#verde {
+    color: rgb(255, 21, 0);
+    margin-left: 80px;
+    padding-top: 20px;
+    font-size: 40px;
+    width: 90%;
+}
+
+
+/*formulario*/
+
+.form_grupo {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.form_input {
+    font-size: 16px;
+    font-family: 'arial';
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px #f2f2f2 solid;
+    background: #fdfdfd;
+    width: 50%;
+    margin-left: 60px;
+    transition: all 0.3s;
+    margin-top: 50px;
+}
+
+
+/*botao formulario*/
+
+.submit_btn {
+    float: left;
+    display: block;
+    padding: 12px 38px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 41, 21);
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 25px;
+    font-family: 'arial';
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 80px;
+}
+
+.submit_btn:hover {
+    background-color: #444;
+    transform: scale(1.03);
+}
+
+
+/*imagem inicial*/
+
+.fotos img {
+    width: 900px;
+    margin-top: 50px;
+}
+
+.meio {
+    display: flex;
+}
+
+
+/*Texto do site/produto*/
+
+.texto {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 15%;
+}
+
+.func {
+    text-align: center;
+    color: rgb(255, 21, 0);
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+
+/*Imagem do produto*/
+
+.produto h1 {
+    color: rgb(255, 21, 0);
+    text-align: center;
+    font-size: 50px;
+}
+
+.produto img {
+    width: 1000px;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+
+/*tabela de planos*/
+
+.premium {
+    display: flex;
+}
+
+#txt {
+    color: rgb(255, 21, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*Primeiro plano*/
+
+.gratis {
+    border-radius: 50px;
+    border: 2px solid rgb(255, 21, 0);
+    width: 280px;
+    color: white;
+    max-width: 400px;
+    max-height: 600px;
+    margin-left: 210px;
+    text-align: center;
+    padding-inline: 10px;
+}
+
+.gratis p {
+    font-size: 15px;
+}
+
+.gratis h3 {
+    font-size: 35px;
+}
+
+.gratis h2 {
+    color: rgb(255, 41, 21);
+    font-size: 30px;
+}
+
+
+/*Segundo plano*/
+
+.universidade {
+    border-radius: 50px;
+    border: 2px solid rgb(255, 21, 0);
+    width: 280px;
+    color: white;
+    max-width: 400px;
+    max-height: 600px;
+    text-align: center;
+    padding-inline: 10px;
+    margin-left: 50px;
+}
+
+.universidade p {
+    font-size: 15px;
+}
+
+.universidade h3 {
+    font-size: 35px;
+}
+
+.universidade h2 {
+    color: rgb(255, 41, 21);
+    font-size: 30px;
+}
+
+
+/*Terceiro plano*/
+
+.avancado {
+    border-radius: 50px;
+    border: 2px solid rgb(255, 21, 0);
+    width: 280px;
+    color: white;
+    max-width: 400px;
+    max-height: 600px;
+    text-align: center;
+    padding-inline: 10px;
+    margin-left: 50px;
+}
+
+.avancado p {
+    font-size: 15px;
+}
+
+.avancado h3 {
+    font-size: 35px;
+}
+
+.avancado h2 {
+    color: rgb(255, 41, 21);
+    font-size: 30px;
+}
+
+
+/*botao dos planos*/
+
+.btn_2 {
+    border: none;
+    padding: 12px 20px;
+    background-color: rgb(255, 21, 0);
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 25px;
+    font-family: 'arial';
+    border-radius: 25px;
+    align-items: center;
+    margin: 25px;
+    transition: 0.5s;
+}
+
+.btn_2:hover {
+    background-color: #444;
+    transform: scale(1.03);
+}
+
+#vis {
+    visibility: hidden;
+}
+
+
+/* Footer*/
+
+
+.footer {
+    position: relative;
+}
+
+#img_footer {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.nome_logo {
+    display: flex;
+    margin-left: 150px;
+}
+
+#logo_footer {
+    width: 80px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+#nome_footer {
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    text-align: center;
+    padding: 10px;
+}
+
+.texto_equipe{
+    width: 400px;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    text-align: center;
+    padding: 10px;
+}
+.contato{
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    text-align: center;
+    padding: 10px;
+}
+#redesocial{
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 1050px;
+    text-align: center;
+    padding: 10px;
+}
+.inst img{
+    width: 60px;
+}
+
+.inst{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 110px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+
+.wz img{
+    width: 60px;
+}
+
+.wz{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 190px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+
+.face img{
+    width: 60px;
+}
+
+.face{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 270px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tw img{
+    width: 60px;
+}
+
+.tw{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    top: 350px;
+    left: 1060px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*espaço entre as pag*/
+
+hr {
+    margin-top: 200px;
+}
+
+#fim {
+    margin-top: 50px;
+}
+
+.icone {
+    width: 40px;
+    padding-left: 150px;
+    padding-top: 28px;
+
+}
+
+.icon {
+    width: 40px;
+    padding-left: 150px;
+}
